@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-    <h1>Counter:{counter}</h1>
+    <h1>Counter:{counter}</h1> <div className='div'>
     <button 
       onClick = {() => setCounter(counter + 1)}
       > + </button>
@@ -28,6 +28,7 @@ function App() {
       <button
       onClick={() =>setCounter (counter - 1)}
       >- </button>
+      </div>
       {/* put coffees from coffees.js */}
      <Coffees />
       </header>
