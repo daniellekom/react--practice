@@ -1,3 +1,8 @@
+
+//CREATE A REACT APP
+//npx create-react-app state-demo or any title
+//yarn start to open react website
+
 //1 go into public index 
 //change app name line 27
 //cange content line 10
